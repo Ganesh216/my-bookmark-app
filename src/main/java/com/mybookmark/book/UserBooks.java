@@ -41,6 +41,21 @@ public class UserBooks {
 	@Column("rating")
 	@CassandraType(type = Name.INT)
 	private int rating ;
+	
+	
+	/**
+	 * @return the key
+	 */
+	public UserBooksPrimaryKey getKey() {
+		return key;
+	}
+
+	/**
+	 * @param key the key to set
+	 */
+	public void setKey(UserBooksPrimaryKey key) {
+		this.key = key;
+	}
 
 	/**
 	 * @return the readingStatus
