@@ -13,6 +13,7 @@
 	<artifactId>mybookmarks</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mybookmarks-app</name>
+	<packaging>jar</packaging>
 	<description>My Book Mark App</description>
 	<properties>
 		<java.version>11</java.version>
@@ -87,6 +88,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>mybookmark</finalName>
 	</build>
 
 </project>
